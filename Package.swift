@@ -14,6 +14,7 @@ let package = Package(
         .library(name: "DynamsoftLabelRecognizer", targets: ["DynamsoftLabelRecognizer"]),
         .library(name: "DynamsoftUtility", targets: ["DynamsoftUtility"]),
         .library(name: "DynamsoftCaptureVisionRouter", targets: ["DynamsoftCaptureVisionRouter"]),
+        .library(name: "DynamsoftNeuralNetwork", targets: ["DynamsoftNeuralNetwork"]),
     ],
     dependencies: [
     ],
